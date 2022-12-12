@@ -23,8 +23,33 @@ final public class CloudtipsSDK {
     public static func initialize(yandexPayAppId: String?, sandboxMode: Bool? = false) throws {
         Self.yandexPayAppId = yandexPayAppId
 
-        let configuration = YandexPaySDKConfiguration(environment: (sandboxMode ?? false) ? .sandbox : .production)
-        try YandexPaySDKApi.initialize(configuration: configuration)
+//        let configuration = YandexPaySDKConfiguration(environment: (sandboxMode ?? false) ? .sandbox : .production)
+//        try YandexPaySDKApi.initialize(configuration: configuration)
+
+        if let yandexPayAppId = yandexPayAppId {
+            // Укажите конфигурацию
+            let merchant = YandexPaySDKMerchant(
+                // ID продавца в системе YandexPay
+                id: yandexPayAppId,
+                // Имя продавца
+                name: "cloudpayments",
+                // URL продавца
+                url: "https://cloudtips.ru"
+            )
+
+            let configuration = YandexPaySDKConfiguration(
+                // Необходимое окружение
+                environment: (sandboxMode ?? false) ? .sandbox : .production,
+                // Информация о мерчанте
+                merchant: merchant,
+                // Локализация
+                locale: .ru
+            )
+            print(YandexPaySDKApi.currentVersion)
+
+            // Инициализируйте SDK
+            try YandexPaySDKApi.initialize(configuration: configuration)
+        }
 
         initialized = true
     }

@@ -9,8 +9,8 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Cloudtips"
-  spec.version      = "1.2.4"
-  spec.summary      = "Core library that allows you to use tips from Cloudtips in your app"
+  spec.version      = "1.2.5"
+  spec.summary      = "Core Cloudtips library"
   spec.description  = "Core library that allows you to use tips from Cloudtips in your app"
 
   spec.homepage     = "https://cloudtips.ru/"
@@ -39,8 +39,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'YandexLoginSDK'
   spec.dependency 'PromiseKit/CorePromise'
   spec.dependency 'SnapKit'
-
-  spec.vendored_frameworks = 'sdk/YandexPaySDK/Static/YandexPaySDK.xcframework', 'sdk/YandexPaySDK/Static/XPlatPaySDK.xcframework'
-  spec.resources = ["sdk/YandexPaySDK/Static/YandexPaySDKResources.bundle"]
+  spec.dependency 'YandexPaySDK/Dynamic'
 
 end

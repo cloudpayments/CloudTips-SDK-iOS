@@ -817,26 +817,32 @@ extension TipsViewController: YandexPayButtonDelegate {
 
             let amountForPay = feeFromPayerSwitch.isOn ? amountPayerFee : amount
 
-            return YPPaymentSheet(
+            let sheet = YPPaymentSheet(
+                // Код страны
                 countryCode: .ru,
+                // Код валюты
                 currencyCode: .rub,
-                merchant: YPMerchant(
-                    id: "1193a702-d3c0-4637-a7c0-2ac95b73ee29",
-                    name: "cloudpayments",
-                    url: "https://cloudtips.ru"
-                ),
+                // Информация о заказе
                 order: YPOrder(
+                    // ID заказа
                     id: "ORDER-ID",
+                    // Стоимость заказа
                     amount: amountForPay.stringValue
                 ),
+                // Доступные способы оплаты
                 paymentMethods: [
+                    // Пока что доступна только оплата картой
                     .card(
                         YPCardPaymentMethod(
+                            // ID поставщика платежных услуг
                             gateway: "cloudpayments",
-                            gatewayMerchantId: gatewayMerchantId, // api/payment/publicid
+                            // ID продавца в системе поставщика платежных услуг
+                            gatewayMerchantId: gatewayMerchantId,
+                            // Что будет содержаться в платежном токене: зашифрованные данные банковской карты или токенизированная карта
                             allowedAuthMethods: [
                                 .panOnly
                             ],
+                            // Список поддерживаемых платежных систем
                             allowedCardNetworks: [
                                 .mastercard,
                                 .visa,
@@ -846,6 +852,38 @@ extension TipsViewController: YandexPayButtonDelegate {
                     )
                 ]
             )
+
+            return sheet
+//
+//            return YPPaymentSheet(
+//                countryCode: .ru,
+//                currencyCode: .rub,
+//                merchant: YPMerchant(
+//                    id: "1193a702-d3c0-4637-a7c0-2ac95b73ee29",
+//                    name: "cloudpayments",
+//                    url: "https://cloudtips.ru"
+//                ),
+//                order: YPOrder(
+//                    id: "ORDER-ID",
+//                    amount: amountForPay.stringValue
+//                ),
+//                paymentMethods: [
+//                    .card(
+//                        YPCardPaymentMethod(
+//                            gateway: "cloudpayments",
+//                            gatewayMerchantId: gatewayMerchantId, // api/payment/publicid
+//                            allowedAuthMethods: [
+//                                .panOnly
+//                            ],
+//                            allowedCardNetworks: [
+//                                .mastercard,
+//                                .visa,
+//                                .mir
+//                            ]
+//                        )
+//                    )
+//                ]
+//            )
         } else {
             return nil
         }

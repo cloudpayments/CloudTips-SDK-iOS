@@ -105,4 +105,4 @@ TipsViewController.present(with: configuration, from: self)
 
 ### Поддержка
 
-По возникающим вопросам техничечкого характера обращайтесь на support@cp.ru
+По возникающим вопросам техничечкого характера обращайтесь на support@cloudpayments.ru

@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         do {
-            let yaAppId = "baaa4b67539a4f479145b644a07cf30a"
+            let yaAppId = "1193a702-d3c0-4637-a7c0-2ac95b73ee29"
             try CloudtipsSDK.initialize(yandexPayAppId: yaAppId, sandboxMode: true)
         } catch {
             fatalError("Unable to initialize CloudtipsSDK.")
