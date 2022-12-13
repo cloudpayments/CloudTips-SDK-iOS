@@ -17,6 +17,19 @@
 		C7E779320278ADA911ADDAC3 /* Pods_Cloudtips_SDK_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B568388A021B08CB0E6827 /* Pods_Cloudtips_SDK_iOS_Demo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		09E0B3602913CC9400C61D37 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		16B568388A021B08CB0E6827 /* Pods_Cloudtips_SDK_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloudtips_SDK_iOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83098524252364A2009A3C32 /* Cloudtips-SDK-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloudtips-SDK-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,7 +136,8 @@
 				83098520252364A2009A3C32 /* Sources */,
 				83098521252364A2009A3C32 /* Frameworks */,
 				83098522252364A2009A3C32 /* Resources */,
-				15F2C534DD547A5C0E761723 /* [CP] Embed Pods Frameworks */,
+				09E0B3602913CC9400C61D37 /* Embed Frameworks */,
+				625E1037283A7D63073B5F58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,7 +216,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		15F2C534DD547A5C0E761723 /* [CP] Embed Pods Frameworks */ = {
+		625E1037283A7D63073B5F58 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,13 +395,21 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Cloudtips-SDK-iOS-Demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 27;
+				CURRENT_PROJECT_VERSION = 30;
 				DEVELOPMENT_TEAM = WCLAYYKMWP;
 				ENABLE_BITCODE = NO;
 				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
-				FRAMEWORK_SEARCH_PATHS = (
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Resources",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Cosmos/Cosmos.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Keyboard+LayoutGuide/KeyboardLayoutGuide.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit/PromiseKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReCaptcha/ReCaptcha.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YandexLoginSDK/YandexLoginSDK.framework/Headers\"",
+					"$(PROJECT_DIR)/**",
 				);
 				INFOPLIST_FILE = Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -395,7 +417,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.cloudtips.CloudTipsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -411,21 +433,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Cloudtips-SDK-iOS-Demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 27;
+				CURRENT_PROJECT_VERSION = 30;
 				DEVELOPMENT_TEAM = WCLAYYKMWP;
 				ENABLE_BITCODE = NO;
 				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Resources",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.cloudtips.CloudTipsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

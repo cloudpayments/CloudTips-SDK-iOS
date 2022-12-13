@@ -1,0 +1,11 @@
+framework module CloudtipsSDK {
+  umbrella header "CloudtipsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module CloudtipsSDK.Swift {
+  header "CloudtipsSDK-Swift.h"
+  requires objc
+}
