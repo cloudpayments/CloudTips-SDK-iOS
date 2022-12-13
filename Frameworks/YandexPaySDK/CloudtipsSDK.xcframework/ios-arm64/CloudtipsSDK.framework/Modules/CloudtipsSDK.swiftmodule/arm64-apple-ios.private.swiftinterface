@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CloudtipsSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVKit
+import Accelerate
+import Amplitude
+import CarPlay
+@_exported import CloudtipsSDK
+import CommonCrypto
+import QuartzCore.CoreAnimation
+import CoreGraphics
+import CoreImage
+import Foundation
+import ImageIO
+import MobileCoreServices
+import PassKit
+import QuartzCore
+import Security
+import Swift
+import UIKit.UIColor
+import UIKit.UIFont
+import UIKit
+import WebKit
+import YandexPaySDK
+import _Concurrency
+import _StringProcessing
+infix operator |> : AdditionPrecedence
+@_hasMissingDesignatedInitializers open class BaseRequest {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class Cloudtips {
+  public static var instance: CloudtipsSDK.Cloudtips
+  public static func initialize(yandexPayAppId: Swift.String?, sandboxMode: Swift.Bool? = false) throws
+  final public func show(with configuration: CloudtipsSDK.CloudtipsConfiguration, from: UIKit.UIViewController)
+  final public func applicationWillEnterForeground()
+  final public func applicationDidBecomeActive()
+  final public func applicationDidReceiveOpen(_ url: Foundation.URL, sourceApplication: Swift.String?) -> Swift.Bool
+  final public func applicationDidReceiveUserActivity(_ userActivity: Foundation.NSUserActivity) -> Swift.Bool
+  @objc deinit
+}
+public struct CloudtipsCotrollerStyle {
+}
+public struct CloudtipsUser {
+  public init(layoutId: Swift.String, name: Swift.String?, agentCode: Swift.String? = nil, email: Swift.String? = nil, type: Swift.Int? = nil, placeId: Swift.String? = nil, managerId: Swift.String? = nil, password: Swift.String? = nil, passwordConfirm: Swift.String? = nil, sendPassword: Swift.Bool? = nil, verifyPhone: Swift.Bool? = nil, leadId: Swift.String? = nil, salesCode: Swift.String? = nil)
+}
+public struct CloudtipsConfiguration {
+  public init(user: CloudtipsSDK.CloudtipsUser, registrationSource: Swift.Int? = nil, utminfo: [Swift.String : Swift.String]? = nil, applePayMerchantId: Swift.String = "", style: CloudtipsSDK.CloudtipsCotrollerStyle? = nil, delegate: CloudtipsSDK.TipsDelegate? = nil, testMode: Swift.Bool = false)
+}
+extension UIKit.UIControl.State : Swift.Hashable {
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol TipsDelegate : AnyObject {
+  func onTipsSuccessed()
+  func onTipsCancelled()
+}
