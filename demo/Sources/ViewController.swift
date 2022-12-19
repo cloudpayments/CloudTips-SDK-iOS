@@ -73,12 +73,6 @@ class ViewController: UIViewController {
                                                        delegate: self,
                                                        testMode: false)
 
-            //            configuration.setApplePayMerchantId("merchant.ru.cloudpayments")
-            //            configuration.setTipsDelegate(self)
-
-            //            configuration.navigationTintColor = .red
-            //            configuration.navigationBackgroundColor = .yellow
-
             Cloudtips.instance.show(with: configuration, from: self)
 
         }

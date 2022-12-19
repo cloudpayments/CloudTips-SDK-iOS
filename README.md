@@ -3,21 +3,24 @@
 Cloudtips SDK позволяет интегрировать прием чаевых в мобильные приложение для платформы iOS.
 
 ### Требования
-Для работы Cloudtips SDK необходим iOS версии 11.0 и выше.
+Для работы Cloudtips SDK необходим iOS версии 12.0 и выше.
 
 ### Подключение
-Для подключения SDK мы рекомендуем использовать Cocoa Pods. Для корректной работы понадобится Cloudpayments SDK. Добавьте в файл Podfile зависимости:
+
+#### Cocoa Pods
+Добавьте в файл Podfile зависимости:
 
 ```
 pod 'Cloudtips', :git => "https://github.com/cloudpayments/CloudTips-SDK-iOS", :branch => "master"
-pod 'Cloudpayments', :git => "https://github.com/cloudpayments/CloudPayments-SDK-iOS", :branch => "master"
-pod 'CloudpaymentsNetworking', :git => "https://github.com/cloudpayments/CloudPayments-SDK-iOS", :branch => "master"
 ```
+
+#### Swift Package Manager
+https://github.com/cloudpayments/CloudTips-SDK-iOS
 
 ### Структура проекта:
 
 * **demo** - Пример реализации приложения с использованием SDK
-* **sdk** - Исходный код SDK
+* **Frameworks** - Двоичные библиотеки, необходимые для работы SDK
 
 ## Инициализация CloudtipsSDK
 
@@ -30,10 +33,9 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     do {
         // Инициализируйте SDK 
         // Если в проекте используется YandexPay, то необходимо указать соответсвующие параметры:
-        // yandexPayAppId - ваш appId, который вы получили при настройке YandexLoginSDK
-        // sandboxMode - режим песочницы YandexPay
-        let yaAppId = "..."
-        try CloudtipsSDK.initialize(yandexPayAppId: yaAppId, sandboxMode: false)
+        // isYandexPayEnabled - активация YandexPaySDK
+        // isSandboxMode - режим песочницы
+        try Cloudtips.initialize(isYandexPayEnabled: true, isSandboxMode: true)
     } catch {
         fatalError("Unable to initialize CloudtipsSDK.")
     }
@@ -73,34 +75,28 @@ func applicationDidBecomeActive(_ application: UIApplication) {
 
 ### Использование
 
-1) Создайте объект TipsConfiguration, передайте в него номер телефона в формате +7********** и имя пользователя (если пользователя с таким номером телефона нет в системе Cloudtips, то будет зарегистрирован новый пользователь с этим именем)
-
-Если вы являетесь партнером CloudTips, передайте в конфигурацию id партнера
+1) Создайте объект CloudtipsUser, передайте в него Layout и имя пользователя. Если вы являетесь партнером CloudTips, передайте в конфигурацию id партнера
 ```
-let configuration = TipsConfiguration.init(phoneNumber: "+79001234567", userName: "Walter WWhite", partner: "partner_id")
+let user = CloudtipsUser(layoutId: text, name: "Cloudtips demo user", agentCode: "ctdemo")
 
-//или
+let configuration = CloudtipsConfiguration(user: user,
+    applePayMerchantId: "merchant.ru.cloudpayments",
+    style: nil,
+    delegate: self,
+    testMode: false)
 
-let configuration = TipsConfiguration.init(phoneNumber: "+" + text, userName: "Cloudtips demo user", partner: "ctdemo", testMode: true) //Если необходимо включить режим тестирования
 ```
 
 2) Для возможности оплаты с Apple Pay передайте в конфигурацию ваш Apple Pay merchant id.
 
 ```
-configuration.setApplePayMerchantId("merchant.ru.cloudpayments")
+applePayMerchantId
 ```
 
-3) Для изменения цвета navigation бара и цвета крестика задайте значения
+3) Вызовите CloudtipsViewController внутри вашего контроллера
 
 ```
-configuration.navigationBackgroundColor = .white
-configuration.navigationTintColor = .blue
-```
-
-4) Вызовите TipsViewController внутри вашего контроллера
-
-```
-TipsViewController.present(with: configuration, from: self)
+Cloudtips.instance.show(with: configuration, from: self)
 ```
 
 ### Поддержка

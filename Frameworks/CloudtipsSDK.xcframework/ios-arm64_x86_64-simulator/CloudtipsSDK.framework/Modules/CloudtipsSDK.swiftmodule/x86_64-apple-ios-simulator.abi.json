@@ -212,6 +212,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Amplitude",
+        "printedName": "Amplitude",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "BaseRequest",
         "printedName": "BaseRequest",
@@ -251,6 +268,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -835,7 +862,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(yandexPayAppId:sandboxMode:)",
+            "printedName": "initialize(isYandexPayEnabled:isSandboxMode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -844,17 +871,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -873,8 +892,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12CloudtipsSDK0A0C10initialize14yandexPayAppId11sandboxModeySSSg_SbSgtKFZ",
-            "mangledName": "$s12CloudtipsSDK0A0C10initialize14yandexPayAppId11sandboxModeySSSg_SbSgtKFZ",
+            "usr": "s:12CloudtipsSDK0A0C10initialize18isYandexPayEnabled0D11SandboxModeySb_SbSgtKFZ",
+            "mangledName": "$s12CloudtipsSDK0A0C10initialize18isYandexPayEnabled0D11SandboxModeySb_SbSgtKFZ",
             "moduleName": "CloudtipsSDK",
             "static": true,
             "declAttributes": [
@@ -1871,23 +1890,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CloudtipsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Amplitude",
-        "printedName": "Amplitude",
-        "declKind": "Import",
-        "moduleName": "CloudtipsSDK"
       },
       {
         "kind": "Import",
@@ -8714,6 +8716,13 @@
       "value": "\"6LcXy9YZAAAAAOkgXGwEPNKKsYqAHcT6DYhCSkg4\""
     },
     {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/AmplitudeHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Network\/api\/Requests\/BaseRequest.swift",
       "kind": "Dictionary",
       "offset": 311,
@@ -9024,7 +9033,7 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/Kingfisher\/Sources\/Networking\/RetryStrategy.swift",
       "kind": "IntegerLiteral",
-      "offset": 5396,
+      "offset": 5382,
       "length": 1,
       "value": "3"
     },
@@ -10011,28 +10020,35 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/Cloudtips.swift",
       "kind": "BooleanLiteral",
-      "offset": 246,
+      "offset": 206,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/Cloudtips.swift",
       "kind": "BooleanLiteral",
-      "offset": 378,
+      "offset": 255,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/Cloudtips.swift",
+      "kind": "BooleanLiteral",
+      "offset": 387,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/Cloudtips.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 422,
       "length": 100,
       "value": "\"CloudtipsSDK should be initialized using initialize(yandexPayAppId:sandboxMode:) method before use\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/Cloudtips.swift",
       "kind": "BooleanLiteral",
-      "offset": 641,
+      "offset": 653,
       "length": 5,
       "value": "false"
     },
@@ -10907,14 +10923,14 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 66802,
+      "offset": 66799,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 67064,
+      "offset": 67061,
       "length": 2,
       "value": "24"
     },
@@ -11484,13 +11500,6 @@
       "offset": 1165,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/AmplitudeHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 330,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Models\/PaymentResponse.swift",
@@ -12272,7 +12281,7 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Cloudpayments\/ThreeDs\/ThreeDsProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 500,
       "length": 58,
       "value": "\"https:\/\/demo.cloudpayments.ru\/WebFormPost\/GetWebViewData\""
     },
@@ -12930,35 +12939,35 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/Kingfisher\/Sources\/Views\/AnimatedImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14564,
+      "offset": 14550,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/Kingfisher\/Sources\/Views\/AnimatedImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14693,
+      "offset": 14679,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/Kingfisher\/Sources\/Views\/AnimatedImageView.swift",
       "kind": "StringLiteral",
-      "offset": 15624,
+      "offset": 15610,
       "length": 46,
       "value": "\"com.onevcat.Kingfisher.Animator.preloadQueue\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/Kingfisher\/Sources\/Views\/AnimatedImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 23225,
+      "offset": 23211,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/Kingfisher\/Sources\/Views\/AnimatedImageView.swift",
       "kind": "Array",
-      "offset": 23789,
+      "offset": 23775,
       "length": 2,
       "value": "[]"
     },

@@ -31,7 +31,7 @@ infix operator |> : AdditionPrecedence
 }
 @_hasMissingDesignatedInitializers final public class Cloudtips {
   public static var instance: CloudtipsSDK.Cloudtips
-  public static func initialize(yandexPayAppId: Swift.String?, sandboxMode: Swift.Bool? = false) throws
+  public static func initialize(isYandexPayEnabled: Swift.Bool, isSandboxMode: Swift.Bool? = false) throws
   final public func show(with configuration: CloudtipsSDK.CloudtipsConfiguration, from: UIKit.UIViewController)
   final public func applicationWillEnterForeground()
   final public func applicationDidBecomeActive()

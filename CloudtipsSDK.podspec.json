@@ -1,6 +1,6 @@
 {
   "name": "CloudtipsSDK",
-  "version": "2.0.5",
+  "version": "2.1.1",
   "summary": "Core library that allows you to use tips from Cloudtips in your app",
   "homepage": "https://cloudtips.ru",
   "license": {
@@ -11,7 +11,7 @@
   },
   "source": {
     "git": "https://github.com/cloudpayments/CloudTips-SDK-iOS.git",
-    "tag": "2.0.3"
+    "tag": "2.1.1"
   },
   "platforms": {
     "ios": "12.0"
@@ -36,12 +36,12 @@
   "requires_arc": true,
 
   "vendored_frameworks": [
-      "Frameworks/CloudtipsSDK.xcframework"
+      "Frameworks/CloudtipsSDK.xcframework",
+      "Frameworks/YandexPaySDK.xcframework"
   ],
 
   "dependencies": {
-      "YandexPaySDK/Dynamic": [],
-      "Amplitude": ["~> 8.8.0"]
+      "Amplitude": ["~> 8.14.0"]
   }
 
 }
