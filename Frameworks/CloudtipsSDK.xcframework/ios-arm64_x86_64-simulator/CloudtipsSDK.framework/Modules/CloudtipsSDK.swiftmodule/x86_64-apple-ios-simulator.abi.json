@@ -212,23 +212,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Amplitude",
-        "printedName": "Amplitude",
-        "declKind": "Import",
-        "moduleName": "CloudtipsSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CloudtipsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "BaseRequest",
         "printedName": "BaseRequest",
@@ -8714,13 +8697,6 @@
       "offset": 960,
       "length": 42,
       "value": "\"6LcXy9YZAAAAAOkgXGwEPNKKsYqAHcT6DYhCSkg4\""
-    },
-    {
-      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/AmplitudeHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 349,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Network\/api\/Requests\/BaseRequest.swift",

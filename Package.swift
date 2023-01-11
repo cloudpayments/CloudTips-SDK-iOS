@@ -24,15 +24,15 @@ let package = Package(
             dependencies: [
                 .target(name: "CloudtipsSDK"),
                 .target(name: "YandexPaySDK"),
-                .target(name: "Amplitude"),
-                .target(name: "AnalyticsConnector"),
+                //.target(name: "Amplitude"),
+                //.target(name: "AnalyticsConnector"),
             ],
             path: "PackageWrapper"
         ),
 
         .binaryTarget(name: "CloudtipsSDK", path: "Frameworks/CloudtipsSDK.xcframework"),
-        .binaryTarget(name: "Amplitude", path: "Frameworks/Amplitude.xcframework"),
-        .binaryTarget(name: "AnalyticsConnector", path: "Frameworks/AnalyticsConnector.xcframework"),
+        //.binaryTarget(name: "Amplitude", path: "Frameworks/Amplitude.xcframework"),
+        //.binaryTarget(name: "AnalyticsConnector", path: "Frameworks/AnalyticsConnector.xcframework"),
         .binaryTarget(name: "YandexPaySDK",
                       url: "https://yandexpay-ios-sdk.s3.yandex.net/1.2.1/YandexPaySDK_121222_7524285.xcframework.zip",
                       checksum: "714698b6e5ff407a76304ce8cf7801fcfc143e432157a1c6624abb04c51bfc2e"),
