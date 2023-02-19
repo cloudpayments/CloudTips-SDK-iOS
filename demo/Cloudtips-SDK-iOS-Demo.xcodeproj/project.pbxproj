@@ -31,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		09492F3E295051E300297946 /* sdk-ios-legacy */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "sdk-ios-legacy"; path = ..; sourceTree = "<group>"; };
+		096675A929A22829000192CC /* CloudTips-SDK-iOS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "CloudTips-SDK-iOS"; path = ..; sourceTree = "<group>"; };
 		16B568388A021B08CB0E6827 /* Pods_Cloudtips_SDK_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloudtips_SDK_iOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83098524252364A2009A3C32 /* Cloudtips-SDK-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloudtips-SDK-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83098527252364A2009A3C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +59,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09492F3D295051E300297946 /* Packages */ = {
+		096675A829A22829000192CC /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				09492F3E295051E300297946 /* sdk-ios-legacy */,
+				096675A929A22829000192CC /* CloudTips-SDK-iOS */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 		8309851B252364A2009A3C32 = {
 			isa = PBXGroup;
 			children = (
-				09492F3D295051E300297946 /* Packages */,
+				096675A829A22829000192CC /* Packages */,
 				835BBAB52525CA7400036021 /* Cloudtips-SDK-iOS-Demo.entitlements */,
 				83098526252364A2009A3C32 /* Sources */,
 				8309857D252369ED009A3C32 /* Resources */,

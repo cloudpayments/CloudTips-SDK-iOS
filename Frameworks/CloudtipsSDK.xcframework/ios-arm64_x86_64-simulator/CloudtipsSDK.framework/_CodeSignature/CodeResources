@@ -6,11 +6,11 @@
 	<dict>
 		<key>CloudtipsSDKResources.bundle/Assets.car</key>
 		<data>
-		wTl1Cqg8LGJthzzVZlohLmYzUXo=
+		1qgw8Nx0GUXqSuIaU9hLCmd7XeM=
 		</data>
 		<key>CloudtipsSDKResources.bundle/Info.plist</key>
 		<data>
-		Cz/Ho925+AsEDdtlwiYKaWrbQHc=
+		WHpAo+ncx72KOJb7+/R7knBYhUY=
 		</data>
 		<key>CloudtipsSDKResources.bundle/PublicKey.txt</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/CloudtipsSDK-Swift.h</key>
 		<data>
-		zoqzNZUz5RzwhRAqO7Rjf9zfKFg=
+		aSNOAelB8zOn97tyTYkwBpQu420=
 		</data>
 		<key>Headers/CloudtipsSDK.h</key>
 		<data>
@@ -26,47 +26,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		02DCsuW1x4EzU9jtIcqatunjQcI=
+		OkI9N43cmf7CnWJ+qk6OD4+Txc4=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iyq5bLatMPioEa9O5y3VBqkiaiY=
+		8G+tBcPA4mf52FEV2L4wKqswDZ4=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		agMAkQUVSvAVW2ZacgIuSV01vI0=
+		IRK+GxUFrkD70wJh3Akf6EoYXbU=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		G8pmJl8ZR8BnmnEHFnQtshpRXN4=
+		pDabHC3y4b44yA44d9u6rXcUrMQ=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		agMAkQUVSvAVW2ZacgIuSV01vI0=
+		IRK+GxUFrkD70wJh3Akf6EoYXbU=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+OxRi17tr86LgLqtim2AipHZnSM=
+		WNzQnw0IjlkogZj7kH7Bn3TDYCk=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iyq5bLatMPioEa9O5y3VBqkiaiY=
+		8G+tBcPA4mf52FEV2L4wKqswDZ4=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ax07DlrCXQua30PM8YSchf5khPI=
+		+VkDXRkd8M5cSImnL9vbvw7VQ+8=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		6IMX0V8oO0fkpYUJbkCm3IC/YAI=
+		VA8pDQsR5EFJFa4LK5ZFZhX0AuQ=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ax07DlrCXQua30PM8YSchf5khPI=
+		+VkDXRkd8M5cSImnL9vbvw7VQ+8=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2rmTTgsZkEyXNpgkTg4Ehw6Spps=
+		BGZSdDOK0eXfWv4f8xhDlN+7vSM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,14 +79,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2gQEG9eQ14N1jdO8xhxfgtpmxGjOwdUH+HiTZkwgmxs=
+			7oSSJU/AcPm5whzjg1c/XX1dE96RJUZXAXgP0WcfmN4=
 			</data>
 		</dict>
 		<key>CloudtipsSDKResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+lmaD8t8MeSV7WwRp9X4G5EZJKuWzprJUh/erJsut5E=
+			1dbRZNe2MAFqYir0PYYDXK2sR3pS5GukSHzXsrF3mt4=
 			</data>
 		</dict>
 		<key>CloudtipsSDKResources.bundle/PublicKey.txt</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JIEAyqsC3wi7vdrMIHBD4Y8YSVxLlzpm1jeKoMSGBQw=
+			5ARStoYh21PKY/EU9231WhclEG8nWlldZ8eFW+R9C0I=
 			</data>
 		</dict>
 		<key>Headers/CloudtipsSDK.h</key>
@@ -114,70 +114,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dWqcPl2mDRwKseLKlwdqSuCmcBnwge9YPfXwcMCH9lY=
+			pSTlRcwtVdI2ClaQmxgbVyOFgWf9H66wwmkSiXpfkrg=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2L24eJsfmOnmkD9CAIASl9vBpyaVDAZ9P9EeWTZMJBI=
+			6TqgOxmLY4sFFU1n9KKzUw8b3pB0Na00qXPj8iWsqSk=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/R/QtY0RXgbdwJQ1a5gt3pF1BTUDXLs7592c0hsGJY4=
+			l9ni6KdpFReGWejb7sNjLN6R3jzWMc75GeoU6HRLG/c=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2L24eJsfmOnmkD9CAIASl9vBpyaVDAZ9P9EeWTZMJBI=
+			6TqgOxmLY4sFFU1n9KKzUw8b3pB0Na00qXPj8iWsqSk=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G8SluYk4XeD+eglTquxaS2ejvNlSU+AnAhfXGRzrkw0=
+			DLaZ8tvXAc8avUYIJGKBGjITR/8d3MinWPbyA5917kY=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dWqcPl2mDRwKseLKlwdqSuCmcBnwge9YPfXwcMCH9lY=
+			pSTlRcwtVdI2ClaQmxgbVyOFgWf9H66wwmkSiXpfkrg=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENW6Lq/VF40fYczqUzAkA9i3nE9AqAXWzY8+H8rORZU=
+			aXjvpOKKjR28t5Px24HjIsMI6kJ1iKrVncVPnumPD0M=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dP1aVRZhk5vUUtE6MJJBM4MARrZ9kYBzXcp+b12FJ7g=
+			4UUqnlUg52YYlNUuRojGyI5f+rlpynDaWV7MDc3UM+k=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENW6Lq/VF40fYczqUzAkA9i3nE9AqAXWzY8+H8rORZU=
+			aXjvpOKKjR28t5Px24HjIsMI6kJ1iKrVncVPnumPD0M=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4uCVmaWU8pVuBjWYAJd9G+qz3taGppJMwNHJgmiazs8=
+			jKFJtIKZUeiux0UoYcZwBtY8oVVZpvNctkPNBN9pxi4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

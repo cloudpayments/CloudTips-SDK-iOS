@@ -21,7 +21,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="RaE-4y-amN">
                                 <rect key="frame" x="82" y="384" width="250" height="142"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="085b99e0" placeholder="Введите layout ID" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oDb-QM-OpQ" customClass="TextField" customModule="Cloudtips_SDK_iOS_Demo" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="9c9e803d" placeholder="Введите layout ID" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oDb-QM-OpQ" customClass="TextField" customModule="Cloudtips_SDK_iOS_Demo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="56"/>
                                         <color key="backgroundColor" name="veryLightBlue"/>
                                         <constraints>
