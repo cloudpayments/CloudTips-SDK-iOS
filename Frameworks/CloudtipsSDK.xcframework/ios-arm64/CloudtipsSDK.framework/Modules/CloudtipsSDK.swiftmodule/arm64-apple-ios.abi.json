@@ -8655,35 +8655,35 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/Rating\/RatingViewCollectionCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 330,
+      "offset": 440,
       "length": 8,
       "value": "0xF6F7F8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/Rating\/RatingViewCollectionCell.swift",
       "kind": "FloatLiteral",
-      "offset": 601,
+      "offset": 711,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/Rating\/RatingViewCollectionCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 685,
+      "offset": 795,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/Rating\/RatingViewCollectionCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 719,
+      "offset": 829,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/Rating\/RatingViewCollectionCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 763,
+      "offset": 873,
       "length": 4,
       "value": "true"
     },
@@ -10930,14 +10930,14 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 69523,
+      "offset": 69577,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 69785,
+      "offset": 69839,
       "length": 2,
       "value": "24"
     },
@@ -12701,7 +12701,7 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/Rating\/RatingView.swift",
       "kind": "Array",
-      "offset": 416,
+      "offset": 525,
       "length": 2,
       "value": "[]"
     },
