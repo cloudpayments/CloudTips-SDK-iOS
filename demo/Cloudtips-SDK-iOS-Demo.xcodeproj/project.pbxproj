@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		096675AE29A3B4FB000192CC /* CloudtipsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 096675AD29A3B4FB000192CC /* CloudtipsSDK */; };
 		83098528252364A2009A3C32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83098527252364A2009A3C32 /* AppDelegate.swift */; };
 		8309852C252364A2009A3C32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309852B252364A2009A3C32 /* ViewController.swift */; };
 		8309852F252364A2009A3C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8309852D252364A2009A3C32 /* Main.storyboard */; };
@@ -31,7 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		096675A929A22829000192CC /* CloudTips-SDK-iOS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "CloudTips-SDK-iOS"; path = ..; sourceTree = "<group>"; };
+		09C262A229B9F453001B87B0 /* CloudTips-SDK-iOS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "CloudTips-SDK-iOS"; path = ..; sourceTree = "<group>"; };
 		16B568388A021B08CB0E6827 /* Pods_Cloudtips_SDK_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloudtips_SDK_iOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83098524252364A2009A3C32 /* Cloudtips-SDK-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloudtips-SDK-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83098527252364A2009A3C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,17 +51,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				096675AE29A3B4FB000192CC /* CloudtipsSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		096675A829A22829000192CC /* Packages */ = {
+		09C262A129B9F453001B87B0 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				096675A929A22829000192CC /* CloudTips-SDK-iOS */,
+				09C262A229B9F453001B87B0 /* CloudTips-SDK-iOS */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -87,7 +85,7 @@
 		8309851B252364A2009A3C32 = {
 			isa = PBXGroup;
 			children = (
-				096675A829A22829000192CC /* Packages */,
+				09C262A129B9F453001B87B0 /* Packages */,
 				835BBAB52525CA7400036021 /* Cloudtips-SDK-iOS-Demo.entitlements */,
 				83098526252364A2009A3C32 /* Sources */,
 				8309857D252369ED009A3C32 /* Resources */,
@@ -153,7 +151,6 @@
 			);
 			name = "Cloudtips-SDK-iOS-Demo";
 			packageProductDependencies = (
-				096675AD29A3B4FB000192CC /* CloudtipsSDK */,
 			);
 			productName = "Cloudtips-SDK-iOS-Demo";
 			productReference = 83098524252364A2009A3C32 /* Cloudtips-SDK-iOS-Demo.app */;
@@ -424,13 +421,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		096675AD29A3B4FB000192CC /* CloudtipsSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CloudtipsSDK;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8309851C252364A2009A3C32 /* Project object */;
 }
