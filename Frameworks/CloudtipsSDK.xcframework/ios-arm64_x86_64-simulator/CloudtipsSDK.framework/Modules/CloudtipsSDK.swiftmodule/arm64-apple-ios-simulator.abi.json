@@ -1107,9 +1107,113 @@
         "printedName": "CloudtipsUser",
         "children": [
           {
+            "kind": "Var",
+            "name": "layoutId",
+            "printedName": "layoutId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CloudtipsSDK0A4UserV8layoutIdSSvp",
+            "mangledName": "$s12CloudtipsSDK0A4UserV8layoutIdSSvp",
+            "moduleName": "CloudtipsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloudtipsSDK0A4UserV8layoutIdSSvg",
+                "mangledName": "$s12CloudtipsSDK0A4UserV8layoutIdSSvg",
+                "moduleName": "CloudtipsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sum",
+            "printedName": "sum",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CloudtipsSDK0A4UserV3sumSdSgvp",
+            "mangledName": "$s12CloudtipsSDK0A4UserV3sumSdSgvp",
+            "moduleName": "CloudtipsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloudtipsSDK0A4UserV3sumSdSgvg",
+                "mangledName": "$s12CloudtipsSDK0A4UserV3sumSdSgvg",
+                "moduleName": "CloudtipsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(layoutId:name:agentCode:email:type:placeId:managerId:password:passwordConfirm:sendPassword:verifyPhone:leadId:salesCode:)",
+            "printedName": "init(layoutId:sum:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1126,177 +1230,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "Swift.Double?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -1304,8 +1244,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12CloudtipsSDK0A4UserV8layoutId4name9agentCode5email4type05placeE007managerE08password0M7Confirm12sendPassword11verifyPhone04leadE005salesH0ACSS_SSSgA2QSiSgA4QSbSgAs2Qtcfc",
-            "mangledName": "$s12CloudtipsSDK0A4UserV8layoutId4name9agentCode5email4type05placeE007managerE08password0M7Confirm12sendPassword11verifyPhone04leadE005salesH0ACSS_SSSgA2QSiSgA4QSbSgAs2Qtcfc",
+            "usr": "s:12CloudtipsSDK0A4UserV8layoutId3sumACSS_SdSgtcfc",
+            "mangledName": "$s12CloudtipsSDK0A4UserV8layoutId3sumACSS_SdSgtcfc",
             "moduleName": "CloudtipsSDK",
             "declAttributes": [
               "AccessControl"
@@ -8977,7 +8917,7 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTLayoutAmountBalloonsView.swift",
       "kind": "Array",
-      "offset": 579,
+      "offset": 1124,
       "length": 2,
       "value": "[]"
     },
@@ -9012,35 +8952,21 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTPreviewAmountVariantCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 451,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTPreviewAmountVariantCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 461,
-      "length": 5,
-      "value": "0.063"
-    },
-    {
-      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTPreviewAmountVariantCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 474,
-      "length": 5,
-      "value": "0.141"
-    },
-    {
-      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTPreviewAmountVariantCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 488,
-      "length": 4,
-      "value": "0.03"
+      "offset": 373,
+      "length": 8,
+      "value": "0xF6F7F8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTPreviewAmountVariantCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 685,
+      "offset": 390,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTPreviewAmountVariantCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 696,
       "length": 2,
       "value": "15"
     },
@@ -10097,21 +10023,21 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Models\/CloudtipsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1608,
+      "offset": 1819,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Models\/CloudtipsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1908,
+      "offset": 2119,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Models\/CloudtipsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2047,
+      "offset": 2258,
       "length": 5,
       "value": "false"
     },
@@ -10146,777 +10072,770 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1589,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
-      "kind": "IntegerLiteral",
       "offset": 1646,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1703,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1723,
+      "offset": 1780,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2007,
+      "offset": 2064,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2109,
+      "offset": 2166,
       "length": 16,
       "value": "\"Закрыть\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2185,
+      "offset": 2242,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "Array",
-      "offset": 2233,
+      "offset": 2290,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2280,
+      "offset": 2337,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2290,
+      "offset": 2347,
       "length": 4,
       "value": "0.06"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2302,
+      "offset": 2359,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2313,
+      "offset": 2370,
       "length": 4,
       "value": "0.03"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2347,
+      "offset": 2404,
       "length": 8,
       "value": "0xf8f8f8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2472,
+      "offset": 2529,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2629,
+      "offset": 2686,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2746,
+      "offset": 2803,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2954,
+      "offset": 3011,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3395,
+      "offset": 3452,
       "length": 13,
       "value": "\"ChevronLeft\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3614,
+      "offset": 3671,
       "length": 16,
       "value": "\"Закрыть\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3986,
+      "offset": 4043,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4903,
+      "offset": 4960,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5453,
+      "offset": 5510,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5609,
+      "offset": 5666,
       "length": 13,
       "value": "\"avatarEmpty\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5657,
+      "offset": 5714,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5827,
+      "offset": 5884,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6197,
+      "offset": 6254,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6233,
+      "offset": 6290,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6353,
+      "offset": 6410,
       "length": 4,
       "value": "0.54"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6394,
+      "offset": 6451,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6429,
+      "offset": 6486,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6631,
+      "offset": 6688,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6741,
+      "offset": 6798,
       "length": 4,
       "value": "0.03"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6794,
+      "offset": 6851,
       "length": 3,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7058,
+      "offset": 7115,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7309,
+      "offset": 7366,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7542,
+      "offset": 7599,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7767,
+      "offset": 7824,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7842,
+      "offset": 7899,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7919,
+      "offset": 7976,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8018,
+      "offset": 8075,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8024,
+      "offset": 8081,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8034,
+      "offset": 8091,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8045,
+      "offset": 8102,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8139,
+      "offset": 8196,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8265,
+      "offset": 8322,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8271,
+      "offset": 8328,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8281,
+      "offset": 8338,
       "length": 3,
       "value": "140"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8294,
+      "offset": 8351,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8342,
+      "offset": 8399,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8352,
+      "offset": 8409,
       "length": 5,
       "value": "0.063"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8365,
+      "offset": 8422,
       "length": 5,
       "value": "0.141"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8379,
+      "offset": 8436,
       "length": 4,
       "value": "0.06"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8434,
+      "offset": 8491,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8644,
+      "offset": 8701,
       "length": 27,
       "value": "\"Введите сумму\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9189,
+      "offset": 9246,
       "length": 10,
       "value": "\"0 руб\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9601,
+      "offset": 9658,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9725,
+      "offset": 9782,
       "length": 26,
       "value": "\"Имя и фамилия\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9960,
+      "offset": 10017,
       "length": 8,
       "value": "\"E-mail\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10176,
+      "offset": 10233,
       "length": 16,
       "value": "\"Телефон\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10399,
+      "offset": 10456,
       "length": 12,
       "value": "\"Город\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10621,
+      "offset": 10678,
       "length": 24,
       "value": "\"Комментарий\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
-      "kind": "Array",
-      "offset": 10775,
-      "length": 32,
-      "value": "[100, 200, 300, 500, 1000, 2000, 3000]"
-    },
-    {
-      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11194,
+      "offset": 11276,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11238,
+      "offset": 11320,
       "length": 8,
       "value": "0xF6F7F8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11282,
+      "offset": 11364,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11575,
+      "offset": 11657,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11695,
+      "offset": 11777,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11799,
+      "offset": 11881,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11957,
+      "offset": 12039,
       "length": 2,
       "value": "31"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12052,
+      "offset": 12134,
       "length": 2,
       "value": "95"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12162,
+      "offset": 12244,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 12378,
+      "offset": 12460,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12418,
+      "offset": 12500,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12647,
+      "offset": 12729,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12726,
+      "offset": 12808,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12765,
+      "offset": 12847,
       "length": 8,
       "value": "0xFFDD2D"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12811,
+      "offset": 12893,
       "length": 10,
       "value": "\"starGrey\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12860,
+      "offset": 12942,
       "length": 12,
       "value": "\"starYellow\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12902,
+      "offset": 12984,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12987,
+      "offset": 13069,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 13259,
+      "offset": 13341,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13299,
+      "offset": 13381,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "Array",
-      "offset": 13569,
+      "offset": 13651,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13812,
+      "offset": 13894,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13946,
+      "offset": 14028,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14186,
+      "offset": 14268,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14402,
+      "offset": 14484,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14432,
+      "offset": 14514,
       "length": 65,
       "value": "\"Перевести получателю полную сумму\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14565,
+      "offset": 14647,
       "length": 124,
       "value": "\"Так вы компенсируете комиссию сервиса, а с вашей карты спишется 0 ₽\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14785,
+      "offset": 14867,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15868,
+      "offset": 15950,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16099,
+      "offset": 16181,
       "length": 27,
       "value": "\"Оплата картой\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16465,
+      "offset": 16547,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16761,
+      "offset": 16843,
       "length": 12,
       "value": "\"conditions\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16801,
+      "offset": 16883,
       "length": 59,
       "value": "\"https:\/\/static.cloudpayments.ru\/docs\/cloudtips_oferta.pdf\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16897,
+      "offset": 16979,
       "length": 8,
       "value": "\"policy\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16933,
+      "offset": 17015,
       "length": 37,
       "value": "\"https:\/\/policies.google.com\/privacy\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17007,
+      "offset": 17089,
       "length": 7,
       "value": "\"terms\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17042,
+      "offset": 17124,
       "length": 35,
       "value": "\"https:\/\/policies.google.com\/terms\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "Dictionary",
-      "offset": 17216,
+      "offset": 17298,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17346,
+      "offset": 17428,
       "length": 78,
       "value": "\"Нажимая кнопку оплаты, вы соглашаетесь с \""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17833,
+      "offset": 17915,
       "length": 20,
       "value": "\"условиями\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18088,
+      "offset": 18170,
       "length": 12,
       "value": "\"conditions\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18204,
+      "offset": 18286,
       "length": 57,
       "value": "\"\n\nThis site is protected by reCAPTCHA and the Google \""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18540,
+      "offset": 18622,
       "length": 16,
       "value": "\"Privacy Policy\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18791,
+      "offset": 18873,
       "length": 8,
       "value": "\"policy\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18903,
+      "offset": 18985,
       "length": 7,
       "value": "\" and \""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19189,
+      "offset": 19271,
       "length": 18,
       "value": "\"Terms of Service\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19442,
+      "offset": 19524,
       "length": 7,
       "value": "\"terms\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19553,
+      "offset": 19635,
       "length": 8,
       "value": "\" apply\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19950,
+      "offset": 20032,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20065,
+      "offset": 20147,
       "length": 2,
       "value": "13"
     },
@@ -10930,14 +10849,14 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 70314,
+      "offset": 73014,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 70576,
+      "offset": 73276,
       "length": 2,
       "value": "24"
     },

@@ -41,7 +41,9 @@ infix operator |> : AdditionPrecedence
 public struct CloudtipsCotrollerStyle {
 }
 public struct CloudtipsUser {
-  public init(layoutId: Swift.String, name: Swift.String?, agentCode: Swift.String? = nil, email: Swift.String? = nil, type: Swift.Int? = nil, placeId: Swift.String? = nil, managerId: Swift.String? = nil, password: Swift.String? = nil, passwordConfirm: Swift.String? = nil, sendPassword: Swift.Bool? = nil, verifyPhone: Swift.Bool? = nil, leadId: Swift.String? = nil, salesCode: Swift.String? = nil)
+  public let layoutId: Swift.String
+  public let sum: Swift.Double?
+  public init(layoutId: Swift.String, sum: Swift.Double? = nil)
 }
 public struct CloudtipsConfiguration {
   public init(user: CloudtipsSDK.CloudtipsUser, registrationSource: Swift.Int? = nil, utminfo: [Swift.String : Swift.String]? = nil, applePayMerchantId: Swift.String = "", style: CloudtipsSDK.CloudtipsCotrollerStyle? = nil, delegate: CloudtipsSDK.TipsDelegate? = nil, testMode: Swift.Bool = false)

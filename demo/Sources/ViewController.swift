@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     @IBAction func onContinue(_ sender: UIButton) {
         if let text = self.textField.text {
 
-            let user =  CloudtipsUser(layoutId: text, name: "Cloudtips demo user", agentCode: "ctdemo")
+            let user = CloudtipsUser(layoutId: text, sum: 600)
 
             let configuration = CloudtipsConfiguration(user: user,
                                                        applePayMerchantId: "merchant.ru.cloudpayments",

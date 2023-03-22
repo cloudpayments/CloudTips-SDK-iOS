@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/CloudtipsSDK-Swift.h</key>
 		<data>
-		aSNOAelB8zOn97tyTYkwBpQu420=
+		mVr+Cq73KToiu63/FD1oKqFrba8=
 		</data>
 		<key>Headers/CloudtipsSDK.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fMQIVGmwmDOvf/Z5yNKsJfYhvXI=
+		/6muuVd53ZwTXECHUVOKuE6pVKY=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IRK+GxUFrkD70wJh3Akf6EoYXbU=
+		eBNv3/gxXZVv8fACbOKxbBF5w/0=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IRK+GxUFrkD70wJh3Akf6EoYXbU=
+		eBNv3/gxXZVv8fACbOKxbBF5w/0=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9cSHTT7IKftza4valhZD8UU0Z6Y=
+		wuJfdz2z3U6GGR8vq2iTEdWXJs0=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fMQIVGmwmDOvf/Z5yNKsJfYhvXI=
+		/6muuVd53ZwTXECHUVOKuE6pVKY=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+VkDXRkd8M5cSImnL9vbvw7VQ+8=
+		pHApiRUcQaUuGsHVKqacmRaJIo4=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+VkDXRkd8M5cSImnL9vbvw7VQ+8=
+		pHApiRUcQaUuGsHVKqacmRaJIo4=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6k+oKAW0SgVR6jGtCD99AkdouDQ=
+		leJXvPOE/nPoz0j4ENru3MpWDnA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ARStoYh21PKY/EU9231WhclEG8nWlldZ8eFW+R9C0I=
+			TV7FW5CDnj1KmxDxOEgJL1MwFGecMt2amyFkazNExyY=
 			</data>
 		</dict>
 		<key>Headers/CloudtipsSDK.h</key>
@@ -114,14 +114,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TzLSWQJNYv0CUYHTd4ohibioqnN5hoqx2QIZGKWBsT0=
+			fGsOiKu/CA8cL8TomQCBwjPhkroRg8u4Sz4DW08BcSM=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6TqgOxmLY4sFFU1n9KKzUw8b3pB0Na00qXPj8iWsqSk=
+			0EUXjT9Zlty2mAmZ3WU4sOVovehzOfyV/+MlVmmKgA0=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -135,28 +135,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6TqgOxmLY4sFFU1n9KKzUw8b3pB0Na00qXPj8iWsqSk=
+			0EUXjT9Zlty2mAmZ3WU4sOVovehzOfyV/+MlVmmKgA0=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sjmtGEmEyZFTtOAnynLM3hszZSgugjuO+IjkP/myQ8w=
+			PZacAwJrIoSy0g14C6B8o/vqHwpfEL4LFW1QZxy0UFU=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TzLSWQJNYv0CUYHTd4ohibioqnN5hoqx2QIZGKWBsT0=
+			fGsOiKu/CA8cL8TomQCBwjPhkroRg8u4Sz4DW08BcSM=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aXjvpOKKjR28t5Px24HjIsMI6kJ1iKrVncVPnumPD0M=
+			TB5LSXqSwjShH+DzSbNtOaflj2IzhXKtAMHiMELjzso=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -170,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aXjvpOKKjR28t5Px24HjIsMI6kJ1iKrVncVPnumPD0M=
+			TB5LSXqSwjShH+DzSbNtOaflj2IzhXKtAMHiMELjzso=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			96eIFFkdCRbfmu9I2etdsgbMs78rer9SdNRdjZnCtJk=
+			isH0sgvrwSz3P2FvQIt9lL3phQuhc1ggF7m2qv/Ue8M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
