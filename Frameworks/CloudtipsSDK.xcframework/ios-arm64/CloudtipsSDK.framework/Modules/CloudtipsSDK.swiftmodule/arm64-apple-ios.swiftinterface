@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
 import Accelerate
+import CTAmplitude
 import CarPlay
 @_exported import CloudtipsSDK
 import CommonCrypto

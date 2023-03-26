@@ -1,0 +1,48 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CTAnalyticsConnector
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+@objc public class CTAnalyticsEvent : ObjectiveC.NSObject {
+  @objc final public let eventType: Swift.String
+  @objc final public let eventProperties: Foundation.NSDictionary?
+  @objc final public let userProperties: Foundation.NSDictionary?
+  @objc public init(eventType: Swift.String, eventProperties: Foundation.NSDictionary?, userProperties: Foundation.NSDictionary?)
+  @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc deinit
+}
+@objc public protocol EventBridge {
+  @objc func setEventReceiver(_ eventReceiver: @escaping (CTAnalyticsConnector.CTAnalyticsEvent) -> ())
+  @objc func logEvent(event: CTAnalyticsConnector.CTAnalyticsEvent)
+}
+@_hasMissingDesignatedInitializers @objc public class CTAnalyticsConnector : ObjectiveC.NSObject {
+  @objc public static func getInstance(_ instanceName: Swift.String) -> CTAnalyticsConnector.CTAnalyticsConnector
+  @objc final public let eventBridge: CTAnalyticsConnector.EventBridge
+  @objc final public let identityStore: CTAnalyticsConnector.IdentityStore
+  @objc deinit
+}
+@objc public class Identity : ObjectiveC.NSObject {
+  @objc final public let userId: Swift.String?
+  @objc final public let deviceId: Swift.String?
+  @objc final public let userProperties: Foundation.NSDictionary
+  @objc public init(userId: Swift.String? = nil, deviceId: Swift.String? = nil, userProperties: Foundation.NSDictionary? = nil)
+  @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc deinit
+}
+@objc public protocol IdentityStore {
+  @objc func getIdentity() -> CTAnalyticsConnector.Identity
+  @objc func setIdentity(_ identity: CTAnalyticsConnector.Identity)
+  @objc func editIdentity() -> CTAnalyticsConnector.IdentityStoreEditor
+  @objc func addIdentityListener(key: Swift.String, _ listener: @escaping (CTAnalyticsConnector.Identity) -> ())
+  @objc func removeIdentityListener(key: Swift.String)
+}
+@objc public protocol IdentityStoreEditor {
+  @objc func setUserId(_ userId: Swift.String?) -> CTAnalyticsConnector.IdentityStoreEditor
+  @objc func setDeviceId(_ deviceId: Swift.String?) -> CTAnalyticsConnector.IdentityStoreEditor
+  @objc func setUserProperties(_ userProperties: Foundation.NSDictionary) -> CTAnalyticsConnector.IdentityStoreEditor
+  @objc func updateUserProperties(_ userPropertyActions: Foundation.NSDictionary) -> CTAnalyticsConnector.IdentityStoreEditor
+  @objc func commit()
+}

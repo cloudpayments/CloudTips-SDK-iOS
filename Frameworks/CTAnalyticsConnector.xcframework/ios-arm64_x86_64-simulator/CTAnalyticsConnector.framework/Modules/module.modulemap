@@ -1,0 +1,4 @@
+framework module CTAnalyticsConnector {
+  header "CTAnalyticsConnector-Swift.h"
+  requires objc
+}

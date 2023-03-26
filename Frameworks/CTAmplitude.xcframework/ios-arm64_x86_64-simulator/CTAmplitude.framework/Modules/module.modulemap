@@ -1,0 +1,6 @@
+framework module CTAmplitude {
+    umbrella header "CTAmplitudeFramework.h"
+
+    export *
+    module * { export * }
+}

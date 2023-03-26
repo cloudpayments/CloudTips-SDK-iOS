@@ -1802,6 +1802,23 @@
       },
       {
         "kind": "Import",
+        "name": "CTAmplitude",
+        "printedName": "CTAmplitude",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "PassKit",
         "printedName": "PassKit",
         "declKind": "Import",
@@ -11419,6 +11436,13 @@
       "offset": 650,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/AmplitudeHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/PaymentData.swift",

@@ -1,0 +1,1574 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CTAnalyticsConnector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CTAnalyticsEvent",
+        "printedName": "CTAnalyticsEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eventType",
+            "printedName": "eventType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent(py)eventType",
+            "mangledName": "$s20CTAnalyticsConnector0A5EventC9eventTypeSSvp",
+            "moduleName": "CTAnalyticsConnector",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent(im)eventType",
+                "mangledName": "$s20CTAnalyticsConnector0A5EventC9eventTypeSSvg",
+                "moduleName": "CTAnalyticsConnector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventProperties",
+            "printedName": "eventProperties",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent(py)eventProperties",
+            "mangledName": "$s20CTAnalyticsConnector0A5EventC15eventPropertiesSo12NSDictionaryCSgvp",
+            "moduleName": "CTAnalyticsConnector",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSDictionary?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSDictionary",
+                        "printedName": "Foundation.NSDictionary",
+                        "usr": "c:objc(cs)NSDictionary"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent(im)eventProperties",
+                "mangledName": "$s20CTAnalyticsConnector0A5EventC15eventPropertiesSo12NSDictionaryCSgvg",
+                "moduleName": "CTAnalyticsConnector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userProperties",
+            "printedName": "userProperties",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent(py)userProperties",
+            "mangledName": "$s20CTAnalyticsConnector0A5EventC14userPropertiesSo12NSDictionaryCSgvp",
+            "moduleName": "CTAnalyticsConnector",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSDictionary?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSDictionary",
+                        "printedName": "Foundation.NSDictionary",
+                        "usr": "c:objc(cs)NSDictionary"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent(im)userProperties",
+                "mangledName": "$s20CTAnalyticsConnector0A5EventC14userPropertiesSo12NSDictionaryCSgvg",
+                "moduleName": "CTAnalyticsConnector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(eventType:eventProperties:userProperties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CTAnalyticsEvent",
+                "printedName": "CTAnalyticsConnector.CTAnalyticsEvent",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent(im)initWithEventType:eventProperties:userProperties:",
+            "mangledName": "$s20CTAnalyticsConnector0A5EventC9eventType0D10Properties04userF0ACSS_So12NSDictionaryCSgAItcfc",
+            "moduleName": "CTAnalyticsConnector",
+            "objc_name": "initWithEventType:eventProperties:userProperties:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent(im)isEqual:",
+            "mangledName": "$s20CTAnalyticsConnector0A5EventC7isEqualySbypSgF",
+            "moduleName": "CTAnalyticsConnector",
+            "overriding": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CTAnalyticsEvent",
+                "printedName": "CTAnalyticsConnector.CTAnalyticsEvent",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent(im)init",
+            "mangledName": "$s20CTAnalyticsConnector0A5EventCACycfc",
+            "moduleName": "CTAnalyticsConnector",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent",
+        "mangledName": "$s20CTAnalyticsConnector0A5EventC",
+        "moduleName": "CTAnalyticsConnector",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventBridge",
+        "printedName": "EventBridge",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setEventReceiver",
+            "printedName": "setEventReceiver(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CTAnalyticsConnector.CTAnalyticsEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CTAnalyticsEvent",
+                    "printedName": "CTAnalyticsConnector.CTAnalyticsEvent",
+                    "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)EventBridge(im)setEventReceiver:",
+            "mangledName": "$s20CTAnalyticsConnector11EventBridgeP03setC8ReceiveryyyAA0aC0CcF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.EventBridge>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.EventBridge>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logEvent",
+            "printedName": "logEvent(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CTAnalyticsEvent",
+                "printedName": "CTAnalyticsConnector.CTAnalyticsEvent",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)EventBridge(im)logEventWithEvent:",
+            "mangledName": "$s20CTAnalyticsConnector11EventBridgeP03logC05eventyAA0aC0C_tF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.EventBridge>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.EventBridge>",
+            "protocolReq": true,
+            "objc_name": "logEventWithEvent:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@CTAnalyticsConnector@objc(pl)EventBridge",
+        "mangledName": "$s20CTAnalyticsConnector11EventBridgeP",
+        "moduleName": "CTAnalyticsConnector",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CTAnalyticsConnector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CTAnalyticsConnector",
+        "printedName": "CTAnalyticsConnector",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getInstance",
+            "printedName": "getInstance(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CTAnalyticsConnector",
+                "printedName": "CTAnalyticsConnector.CTAnalyticsConnector",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsConnector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsConnector(cm)getInstance:",
+            "mangledName": "$s20CTAnalyticsConnectorAAC11getInstanceyABSSFZ",
+            "moduleName": "CTAnalyticsConnector",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "eventBridge",
+            "printedName": "eventBridge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventBridge",
+                "printedName": "CTAnalyticsConnector.EventBridge",
+                "usr": "c:@M@CTAnalyticsConnector@objc(pl)EventBridge"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsConnector(py)eventBridge",
+            "mangledName": "$s20CTAnalyticsConnectorAAC11eventBridgeAA05EventD0_pvp",
+            "moduleName": "CTAnalyticsConnector",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventBridge",
+                    "printedName": "CTAnalyticsConnector.EventBridge",
+                    "usr": "c:@M@CTAnalyticsConnector@objc(pl)EventBridge"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsConnector(im)eventBridge",
+                "mangledName": "$s20CTAnalyticsConnectorAAC11eventBridgeAA05EventD0_pvg",
+                "moduleName": "CTAnalyticsConnector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identityStore",
+            "printedName": "identityStore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdentityStore",
+                "printedName": "CTAnalyticsConnector.IdentityStore",
+                "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStore"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsConnector(py)identityStore",
+            "mangledName": "$s20CTAnalyticsConnectorAAC13identityStoreAA08IdentityD0_pvp",
+            "moduleName": "CTAnalyticsConnector",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdentityStore",
+                    "printedName": "CTAnalyticsConnector.IdentityStore",
+                    "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStore"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsConnector(im)identityStore",
+                "mangledName": "$s20CTAnalyticsConnectorAAC13identityStoreAA08IdentityD0_pvg",
+                "moduleName": "CTAnalyticsConnector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CTAnalyticsConnector",
+                "printedName": "CTAnalyticsConnector.CTAnalyticsConnector",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsConnector"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsConnector(im)init",
+            "mangledName": "$s20CTAnalyticsConnectorAACABycfc",
+            "moduleName": "CTAnalyticsConnector",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CTAnalyticsConnector@objc(cs)CTAnalyticsConnector",
+        "mangledName": "$s20CTAnalyticsConnectorAAC",
+        "moduleName": "CTAnalyticsConnector",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CTAnalyticsConnector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Identity",
+        "printedName": "Identity",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity(py)userId",
+            "mangledName": "$s20CTAnalyticsConnector8IdentityC6userIdSSSgvp",
+            "moduleName": "CTAnalyticsConnector",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity(im)userId",
+                "mangledName": "$s20CTAnalyticsConnector8IdentityC6userIdSSSgvg",
+                "moduleName": "CTAnalyticsConnector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity(py)deviceId",
+            "mangledName": "$s20CTAnalyticsConnector8IdentityC8deviceIdSSSgvp",
+            "moduleName": "CTAnalyticsConnector",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity(im)deviceId",
+                "mangledName": "$s20CTAnalyticsConnector8IdentityC8deviceIdSSSgvg",
+                "moduleName": "CTAnalyticsConnector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userProperties",
+            "printedName": "userProperties",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity(py)userProperties",
+            "mangledName": "$s20CTAnalyticsConnector8IdentityC14userPropertiesSo12NSDictionaryCvp",
+            "moduleName": "CTAnalyticsConnector",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity(im)userProperties",
+                "mangledName": "$s20CTAnalyticsConnector8IdentityC14userPropertiesSo12NSDictionaryCvg",
+                "moduleName": "CTAnalyticsConnector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userId:deviceId:userProperties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Identity",
+                "printedName": "CTAnalyticsConnector.Identity",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity(im)initWithUserId:deviceId:userProperties:",
+            "mangledName": "$s20CTAnalyticsConnector8IdentityC6userId06deviceE00D10PropertiesACSSSg_AGSo12NSDictionaryCSgtcfc",
+            "moduleName": "CTAnalyticsConnector",
+            "objc_name": "initWithUserId:deviceId:userProperties:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity(im)isEqual:",
+            "mangledName": "$s20CTAnalyticsConnector8IdentityC7isEqualySbypSgF",
+            "moduleName": "CTAnalyticsConnector",
+            "overriding": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Identity",
+                "printedName": "CTAnalyticsConnector.Identity",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity(im)init",
+            "mangledName": "$s20CTAnalyticsConnector8IdentityCACycfc",
+            "moduleName": "CTAnalyticsConnector",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity",
+        "mangledName": "$s20CTAnalyticsConnector8IdentityC",
+        "moduleName": "CTAnalyticsConnector",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IdentityStore",
+        "printedName": "IdentityStore",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getIdentity",
+            "printedName": "getIdentity()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Identity",
+                "printedName": "CTAnalyticsConnector.Identity",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStore(im)getIdentity",
+            "mangledName": "$s20CTAnalyticsConnector13IdentityStoreP03getC0AA0C0CyF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.IdentityStore>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.IdentityStore>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIdentity",
+            "printedName": "setIdentity(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Identity",
+                "printedName": "CTAnalyticsConnector.Identity",
+                "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStore(im)setIdentity:",
+            "mangledName": "$s20CTAnalyticsConnector13IdentityStoreP03setC0yyAA0C0CF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.IdentityStore>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.IdentityStore>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "editIdentity",
+            "printedName": "editIdentity()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdentityStoreEditor",
+                "printedName": "CTAnalyticsConnector.IdentityStoreEditor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStore(im)editIdentity",
+            "mangledName": "$s20CTAnalyticsConnector13IdentityStoreP04editC0AA0cD6Editor_pyF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.IdentityStore>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.IdentityStore>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addIdentityListener",
+            "printedName": "addIdentityListener(key:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CTAnalyticsConnector.Identity) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Identity",
+                    "printedName": "CTAnalyticsConnector.Identity",
+                    "usr": "c:@M@CTAnalyticsConnector@objc(cs)Identity"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStore(im)addIdentityListenerWithKey::",
+            "mangledName": "$s20CTAnalyticsConnector13IdentityStoreP03addC8Listener3key_ySS_yAA0C0CctF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.IdentityStore>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.IdentityStore>",
+            "protocolReq": true,
+            "objc_name": "addIdentityListenerWithKey::",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeIdentityListener",
+            "printedName": "removeIdentityListener(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStore(im)removeIdentityListenerWithKey:",
+            "mangledName": "$s20CTAnalyticsConnector13IdentityStoreP06removeC8Listener3keyySS_tF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.IdentityStore>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.IdentityStore>",
+            "protocolReq": true,
+            "objc_name": "removeIdentityListenerWithKey:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStore",
+        "mangledName": "$s20CTAnalyticsConnector13IdentityStoreP",
+        "moduleName": "CTAnalyticsConnector",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IdentityStoreEditor",
+        "printedName": "IdentityStoreEditor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setUserId",
+            "printedName": "setUserId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdentityStoreEditor",
+                "printedName": "CTAnalyticsConnector.IdentityStoreEditor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor(im)setUserId:",
+            "mangledName": "$s20CTAnalyticsConnector19IdentityStoreEditorP9setUserIdyAaB_pSSSgF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.IdentityStoreEditor>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.IdentityStoreEditor>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDeviceId",
+            "printedName": "setDeviceId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdentityStoreEditor",
+                "printedName": "CTAnalyticsConnector.IdentityStoreEditor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor(im)setDeviceId:",
+            "mangledName": "$s20CTAnalyticsConnector19IdentityStoreEditorP11setDeviceIdyAaB_pSSSgF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.IdentityStoreEditor>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.IdentityStoreEditor>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserProperties",
+            "printedName": "setUserProperties(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdentityStoreEditor",
+                "printedName": "CTAnalyticsConnector.IdentityStoreEditor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor(im)setUserProperties:",
+            "mangledName": "$s20CTAnalyticsConnector19IdentityStoreEditorP17setUserPropertiesyAaB_pSo12NSDictionaryCF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.IdentityStoreEditor>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.IdentityStoreEditor>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUserProperties",
+            "printedName": "updateUserProperties(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdentityStoreEditor",
+                "printedName": "CTAnalyticsConnector.IdentityStoreEditor",
+                "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor(im)updateUserProperties:",
+            "mangledName": "$s20CTAnalyticsConnector19IdentityStoreEditorP20updateUserPropertiesyAaB_pSo12NSDictionaryCF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.IdentityStoreEditor>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.IdentityStoreEditor>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "commit",
+            "printedName": "commit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor(im)commit",
+            "mangledName": "$s20CTAnalyticsConnector19IdentityStoreEditorP6commityyF",
+            "moduleName": "CTAnalyticsConnector",
+            "genericSig": "<τ_0_0 where τ_0_0 : CTAnalyticsConnector.IdentityStoreEditor>",
+            "sugared_genericSig": "<Self where Self : CTAnalyticsConnector.IdentityStoreEditor>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@CTAnalyticsConnector@objc(pl)IdentityStoreEditor",
+        "mangledName": "$s20CTAnalyticsConnector19IdentityStoreEditorP",
+        "moduleName": "CTAnalyticsConnector",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/EventBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 126,
+      "length": 16,
+      "value": "\"CTAnalyticsConnector.CTAnalyticsEvent\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/EventBridge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1218,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/EventBridge.swift",
+      "kind": "Array",
+      "offset": 1335,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/AnalyticsConnector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/AnalyticsConnector.swift",
+      "kind": "Dictionary",
+      "offset": 331,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/AnalyticsConnector.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 20,
+      "value": "\"CTAnalyticsConnector.CTAnalyticsConnector\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/IdentityStore.swift",
+      "kind": "StringLiteral",
+      "offset": 141,
+      "length": 6,
+      "value": "\"$set\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/IdentityStore.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 8,
+      "value": "\"$unset\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/IdentityStore.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 11,
+      "value": "\"$clearAll\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/IdentityStore.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 8,
+      "value": "\"CTAnalyticsConnector.Identity\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/IdentityStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1799,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/IdentityStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1897,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/IdentityStore.swift",
+      "kind": "Dictionary",
+      "offset": 1956,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Amplitude\/Carthage\/Checkouts\/analytics-connector-ios\/Sources\/AnalyticsConnector\/IdentityStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3096,
+      "length": 23,
+      "value": "\"CTAnalyticsConnector.IdentityStoreEditorImpl\""
+    }
+  ]
+}
