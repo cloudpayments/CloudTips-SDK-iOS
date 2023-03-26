@@ -7,13 +7,6 @@ Cloudtips SDK позволяет интегрировать прием чаев�
 
 ### Подключение
 
-#### Cocoa Pods
-Добавьте в файл Podfile зависимости:
-
-```
-pod 'Cloudtips', :git => "https://github.com/cloudpayments/CloudTips-SDK-iOS", :branch => "master"
-```
-
 #### Swift Package Manager
 https://github.com/cloudpayments/CloudTips-SDK-iOS
 
