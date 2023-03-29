@@ -8934,7 +8934,7 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTLayoutAmountBalloonsView.swift",
       "kind": "Array",
-      "offset": 1124,
+      "offset": 1424,
       "length": 2,
       "value": "[]"
     },
@@ -8969,21 +8969,28 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTPreviewAmountVariantCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 373,
+      "offset": 355,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTPreviewAmountVariantCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 683,
       "length": 8,
       "value": "0xF6F7F8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTPreviewAmountVariantCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 390,
+      "offset": 700,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Views\/CTPreviewAmountVariantCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 696,
+      "offset": 1006,
       "length": 2,
       "value": "15"
     },
@@ -10866,14 +10873,14 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 73014,
+      "offset": 73535,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/CloudtipsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 73276,
+      "offset": 73797,
       "length": 2,
       "value": "24"
     },
