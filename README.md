@@ -17,6 +17,15 @@ https://github.com/cloudpayments/CloudTips-SDK-iOS
 
 ## Инициализация CloudtipsSDK
 
+В Info.plist файле добавьте:
+
+```
+<key>LSApplicationQueriesSchemes</key>
+<array>
+	<string>tinkoffbank</string>
+</array>
+```
+
 В `AppDelegate.swift` вашего проекта в методе `application(_:didFinishLaunchingWithOptions:)` осуществите инициализацию SDK:
 
 Если в проекте используется YandexPay, то для настройки YandexLoginSDK используйте пункты 1-3 [инструкции](https://yandex.ru/dev/mobileauthsdk/doc/sdk/concepts/ios/2.0.0/sdk-ios-install.html).
