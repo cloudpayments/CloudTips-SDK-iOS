@@ -3,6 +3,11 @@
 # Learn more about .gitignore:
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
+demo/Cloudtips-SDK-iOS-Demo.xcodeproj/project.xcworkspace/
+
+
+
+
 # Node artifact files
 node_modules/
 dist/

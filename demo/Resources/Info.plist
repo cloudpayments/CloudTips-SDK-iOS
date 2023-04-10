@@ -37,6 +37,7 @@
 	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
+		<string>tinkoffbank</string>
 		<string>yandexauth</string>
 		<string>yandexauth2</string>
 	</array>
