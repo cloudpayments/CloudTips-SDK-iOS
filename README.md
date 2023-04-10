@@ -68,9 +68,9 @@ func applicationDidBecomeActive(_ application: UIApplication) {
 
 ### Использование
 
-1) Создайте объект CloudtipsUser, передайте в него Layout и имя пользователя. Если вы являетесь партнером CloudTips, передайте в конфигурацию id партнера
+1) Создайте объект CloudtipsUser, передайте в него LayoutID и сумму чека, если она известна, либо nil.
 ```
-let user = CloudtipsUser(layoutId: text, name: "Cloudtips demo user", agentCode: "ctdemo")
+let user = CloudtipsUser(layoutId: 1234567, sum: 2000)
 
 let configuration = CloudtipsConfiguration(user: user,
     applePayMerchantId: "merchant.ru.cloudpayments",
