@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
 import Accelerate
+import QuartzCore.CAMediaTimingFunction
 import CTAmplitude
 import CarPlay
 @_exported import CloudtipsSDK
@@ -21,15 +22,13 @@ import Security
 import Swift
 import UIKit.UIColor
 import UIKit.UIFont
+import UIKit.UIGestureRecognizerSubclass
 import UIKit
 import WebKit
 import YandexPaySDK
 import _Concurrency
 import _StringProcessing
 infix operator |> : AdditionPrecedence
-@_hasMissingDesignatedInitializers open class BaseRequest {
-  @objc deinit
-}
 @_hasMissingDesignatedInitializers final public class Cloudtips {
   public static var instance: CloudtipsSDK.Cloudtips
   public static func initialize(isYandexPayEnabled: Swift.Bool, isSandboxMode: Swift.Bool? = false) throws
