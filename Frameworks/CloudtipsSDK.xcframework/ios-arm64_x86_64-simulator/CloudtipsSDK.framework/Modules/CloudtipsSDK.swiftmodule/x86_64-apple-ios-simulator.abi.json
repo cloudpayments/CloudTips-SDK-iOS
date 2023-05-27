@@ -9912,35 +9912,35 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/SavedCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2437,
+      "offset": 2483,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/SavedCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4394,
+      "offset": 4440,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/SavedCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4822,
+      "offset": 4868,
       "length": 27,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/SavedCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4835,
+      "offset": 4881,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/SavedCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4848,
+      "offset": 4894,
       "length": 2,
       "value": "\"\""
     },
@@ -12453,210 +12453,210 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7899,
+      "offset": 7924,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8019,
+      "offset": 8044,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8039,
+      "offset": 8064,
       "length": 5,
       "value": "160.0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8105,
+      "offset": 8130,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8125,
+      "offset": 8150,
       "length": 5,
       "value": "160.0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8285,
+      "offset": 8310,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8389,
+      "offset": 8414,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8496,
+      "offset": 8521,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8908,
+      "offset": 8933,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8981,
+      "offset": 9006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9105,
+      "offset": 9130,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9204,
+      "offset": 9229,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9232,
+      "offset": 9257,
       "length": 39,
       "value": "\"Точно удалить карту?\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9295,
+      "offset": 9320,
       "length": 139,
       "value": "\"Если вы захотите отправить с нее чаевые, придется заполнять данные вручную\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9480,
+      "offset": 9505,
       "length": 39,
       "value": "\"Точно удалить карты?\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9543,
+      "offset": 9568,
       "length": 125,
       "value": "\"Если вы захотите отправить чаевые, придется вводить данные вручную\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9823,
+      "offset": 9848,
       "length": 18,
       "value": "\"Оставить\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9881,
+      "offset": 9906,
       "length": 16,
       "value": "\"Удалить\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9912,
+      "offset": 9937,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10016,
+      "offset": 10041,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "Array",
-      "offset": 10199,
+      "offset": 10224,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11268,
+      "offset": 11293,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11594,
+      "offset": 11619,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11878,
+      "offset": 11903,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12071,
+      "offset": 12096,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12116,
+      "offset": 12141,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12170,
+      "offset": 12195,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12214,
+      "offset": 12239,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12313,
+      "offset": 12338,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12401,
+      "offset": 12426,
       "length": 5,
       "value": "false"
     },
@@ -12670,133 +12670,133 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12800,
+      "offset": 12826,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13100,
+      "offset": 13126,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13262,
+      "offset": 13288,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13295,
+      "offset": 13321,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13329,
+      "offset": 13355,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13511,
+      "offset": 13537,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13821,
+      "offset": 13847,
       "length": 3,
       "value": "136"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14039,
+      "offset": 14065,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14094,
+      "offset": 14120,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14145,
+      "offset": 14171,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14229,
+      "offset": 14255,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14284,
+      "offset": 14310,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14344,
+      "offset": 14370,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14436,
+      "offset": 14462,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14491,
+      "offset": 14517,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14551,
+      "offset": 14577,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16078,
+      "offset": 16104,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16439,
+      "offset": 16465,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17264,
+      "offset": 17290,
       "length": 5,
       "value": "false"
     },
@@ -16940,105 +16940,105 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "StringLiteral",
-      "offset": 3214,
+      "offset": 3209,
       "length": 16,
       "value": "\"tcs_psIconVisa\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3446,
+      "offset": 3436,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3656,
+      "offset": 3646,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4120,
+      "offset": 4110,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4924,
+      "offset": 4914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "FloatLiteral",
-      "offset": 6777,
+      "offset": 6767,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "FloatLiteral",
-      "offset": 6783,
+      "offset": 6773,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "FloatLiteral",
-      "offset": 6839,
+      "offset": 6829,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "FloatLiteral",
-      "offset": 6845,
+      "offset": 6835,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6940,
+      "offset": 6930,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "StringLiteral",
-      "offset": 8018,
+      "offset": 8008,
       "length": 16,
       "value": "\"tcs_psIconVisa\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "StringLiteral",
-      "offset": 8088,
+      "offset": 8078,
       "length": 22,
       "value": "\"tcs_psIconMastercard\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "StringLiteral",
-      "offset": 8174,
+      "offset": 8164,
       "length": 15,
       "value": "\"tcs_psIconMIR\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "StringLiteral",
-      "offset": 8224,
+      "offset": 8214,
       "length": 19,
       "value": "\"tcs_psIconMaestro\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSCardField\/Subviews\/IconsView.swift",
       "kind": "StringLiteral",
-      "offset": 8279,
+      "offset": 8269,
       "length": 20,
       "value": "\"tcs_psIconUnionPay\""
     },
@@ -22469,232 +22469,260 @@
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 6573,
+      "length": 39,
+      "value": "\"cardSaveViewDidChangeHeight \""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 6611,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 7370,
+      "offset": 7606,
       "length": 4,
       "value": "2400"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 8637,
+      "length": 42,
+      "value": "\"cardSaveViewHeight \""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 8678,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 8486,
+      "offset": 8783,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 8568,
+      "offset": 8865,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "FloatLiteral",
-      "offset": 9347,
+      "offset": 9644,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "FloatLiteral",
-      "offset": 9386,
+      "offset": 9683,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9855,
+      "offset": 10152,
       "length": 27,
       "value": "\"payment_page_success_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9893,
+      "offset": 10190,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9903,
+      "offset": 10200,
       "length": 12,
       "value": "\"tinkoffpay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10051,
+      "offset": 10348,
       "length": 25,
       "value": "\"payment_page_error_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10087,
+      "offset": 10384,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10097,
+      "offset": 10394,
       "length": 12,
       "value": "\"tinkoffpay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10480,
+      "offset": 10777,
       "length": 27,
       "value": "\"payment_page_success_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10518,
+      "offset": 10815,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10528,
+      "offset": 10825,
       "length": 11,
       "value": "\"yandexpay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10737,
+      "offset": 11034,
       "length": 25,
       "value": "\"payment_page_error_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10773,
+      "offset": 11070,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10783,
+      "offset": 11080,
       "length": 11,
       "value": "\"yandexpay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10930,
+      "offset": 11227,
       "length": 27,
       "value": "\"payment_page_success_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10968,
+      "offset": 11265,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10978,
+      "offset": 11275,
       "length": 10,
       "value": "\"applepay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 11145,
+      "offset": 11442,
       "length": 25,
       "value": "\"payment_page_error_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 11181,
+      "offset": 11478,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 11191,
+      "offset": 11488,
       "length": 10,
       "value": "\"applepay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 11835,
+      "offset": 12132,
       "length": 27,
       "value": "\"payment_page_success_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 11873,
+      "offset": 12170,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 11883,
+      "offset": 12180,
       "length": 6,
       "value": "\"card\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 12061,
+      "offset": 12360,
       "length": 25,
       "value": "\"payment_page_error_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 12097,
+      "offset": 12396,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 12107,
+      "offset": 12406,
       "length": 6,
       "value": "\"card\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 12359,
+      "offset": 12658,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 12503,
+      "offset": 12802,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 12782,
+      "offset": 13081,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 12926,
+      "offset": 13225,
       "length": 4,
       "value": "true"
     },
@@ -37890,36 +37918,50 @@
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/NewCardTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 2281,
+      "length": 4,
+      "value": "0.02"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/NewCardTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2424,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/NewCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2482,
+      "offset": 2692,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/NewCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4101,
+      "offset": 4311,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/NewCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4527,
+      "offset": 4737,
       "length": 27,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/NewCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4540,
+      "offset": 4750,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/NewCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4553,
+      "offset": 4763,
       "length": 2,
       "value": "\"\""
     },
