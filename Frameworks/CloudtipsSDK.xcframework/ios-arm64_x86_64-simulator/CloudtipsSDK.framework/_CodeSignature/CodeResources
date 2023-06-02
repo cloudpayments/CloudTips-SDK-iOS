@@ -84,7 +84,7 @@
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		PgB/S+ibkEEmdQ4zMgpP5S7UF+s=
+		93PytAB7AI1anpjiVgSPM6PTtNg=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -100,11 +100,11 @@
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Cvl+dJyaqOaNREMYkyGeTWi9Utk=
+		UU69ha1Smx6vjWb1eQ/FP0uo2oc=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PgB/S+ibkEEmdQ4zMgpP5S7UF+s=
+		93PytAB7AI1anpjiVgSPM6PTtNg=
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -120,7 +120,7 @@
 		</data>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cihLJ5fyVE+wkbcIGav959q/QC8=
+		6rWnXmChnPk0h6mVvAFZvYg4HQ8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -249,7 +249,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9958r7R7LKo22HwM5vAc6bSurhIZrSqJsyH02vdIJC0=
+			7bFcCxu437TkQQ5TLQ1Kj2ogZ8+8iCo7E/LooI6Sb1g=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -277,14 +277,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hq1QFlWI+foJvoUNwJ7qGFLfLNoJuAtNy9Q0/g0cGLA=
+			vyHAe6tRKUhJJ3hf0u95PKVeK/3qkqX2gZ3fMuoz/kY=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9958r7R7LKo22HwM5vAc6bSurhIZrSqJsyH02vdIJC0=
+			7bFcCxu437TkQQ5TLQ1Kj2ogZ8+8iCo7E/LooI6Sb1g=
 			</data>
 		</dict>
 		<key>Modules/CloudtipsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -312,7 +312,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GyrXe+pc8uJhFpqqs8rYj0n89Xd/Esoju/NWE5+rax8=
+			Fk2KHDoUvL9QZ/Mlpf800Zwi2T5jgRrlcCIsdS9Mwvo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
