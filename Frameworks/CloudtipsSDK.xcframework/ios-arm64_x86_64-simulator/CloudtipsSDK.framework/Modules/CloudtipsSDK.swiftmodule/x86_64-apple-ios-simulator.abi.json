@@ -30860,505 +30860,519 @@
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4648,
+      "length": 12,
+      "value": "\"Поиск\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4959,
+      "offset": 4998,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5116,
+      "offset": 5155,
       "length": 12,
       "value": "\"searchIcon\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5419,
+      "offset": 5252,
+      "length": 11,
+      "value": "\"clearIcon\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5554,
       "length": 61,
       "value": "\"Выберите банк для подтверждения\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5515,
+      "offset": 5650,
       "length": 8,
       "value": "0x9299A2"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5566,
+      "offset": 5701,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5576,
+      "offset": 5711,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5587,
+      "offset": 5722,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5598,
+      "offset": 5733,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6112,
+      "offset": 6247,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6296,
+      "offset": 6431,
       "length": 18,
       "value": "\"bank100000000004\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6327,
+      "offset": 6462,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6385,
+      "offset": 6520,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6542,
+      "offset": 6677,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6746,
+      "offset": 6881,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7056,
+      "offset": 7191,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7793,
+      "offset": 7928,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8059,
+      "offset": 8194,
       "length": 8,
       "value": "\"Failed\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8438,
+      "offset": 8573,
       "length": 28,
       "value": "\"applicationDidBecomeActive\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8761,
+      "offset": 8896,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8923,
+      "offset": 9058,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8956,
+      "offset": 9091,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8990,
+      "offset": 9125,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9135,
+      "offset": 9270,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9190,
+      "offset": 9325,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9621,
+      "offset": 9756,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9770,
+      "offset": 9905,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9859,
+      "offset": 9994,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10010,
+      "offset": 10145,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10093,
+      "offset": 10228,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10241,
+      "offset": 10376,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10324,
+      "offset": 10459,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10429,
+      "offset": 10564,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10484,
+      "offset": 10619,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10518,
+      "offset": 10653,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10597,
+      "offset": 10732,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10693,
+      "offset": 10828,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10727,
+      "offset": 10862,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10989,
+      "offset": 11124,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11027,
+      "offset": 11162,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11362,
+      "offset": 11497,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11401,
+      "offset": 11536,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11662,
+      "offset": 11797,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11804,
+      "offset": 11939,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11839,
+      "offset": 11974,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11889,
+      "offset": 12024,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11976,
+      "offset": 12111,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12010,
+      "offset": 12145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12061,
+      "offset": 12196,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12170,
+      "offset": 12305,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12207,
+      "offset": 12342,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12242,
+      "offset": 12377,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12292,
+      "offset": 12427,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12373,
+      "offset": 12508,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12409,
+      "offset": 12544,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12443,
+      "offset": 12578,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12494,
+      "offset": 12629,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12833,
+      "offset": 12968,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13485,
+      "offset": 13620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13642,
+      "offset": 13777,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13790,
+      "offset": 13925,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13830,
+      "offset": 13965,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13889,
+      "offset": 14024,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14526,
+      "offset": 14661,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14786,
+      "offset": 14921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14908,
+      "offset": 15043,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14933,
+      "offset": 15068,
       "length": 5,
       "value": "\":\/\/\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15443,
+      "offset": 15578,
       "length": 12,
       "value": "\"wrong data\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15572,
+      "offset": 15707,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15629,
+      "offset": 15764,
       "length": 14,
       "value": "\"Ошибка\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15791,
+      "offset": 15926,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16021,
+      "offset": 16156,
       "length": 4,
       "value": "\"Ok\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16083,
+      "offset": 16218,
       "length": 4,
       "value": "true"
     },
@@ -31372,84 +31386,84 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16818,
+      "offset": 16953,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17006,
+      "offset": 17141,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18239,
+      "offset": 18374,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18309,
+      "offset": 18444,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18726,
+      "offset": 18861,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19060,
+      "offset": 19195,
       "length": 8,
       "value": "0xF0F2F5"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19106,
+      "offset": 19241,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19146,
+      "offset": 19281,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19225,
+      "offset": 19360,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19319,
+      "offset": 19454,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19471,
+      "offset": 19606,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/SbpBanksViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19524,
+      "offset": 19659,
       "length": 2,
       "value": "16"
     },
