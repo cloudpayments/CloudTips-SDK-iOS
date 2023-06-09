@@ -15,4 +15,7 @@ FOUNDATION_EXPORT const unsigned char CloudtipsSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CloudtipsSDK/PublicHeader.h>
 
-
+#import <CloudtipsSDK/TCSMaskEditor.h>
+#import <CloudtipsSDK/TCSMaskEditorInputWrapper.h>
+#import <CloudtipsSDK/NSString+Util.h>
+#import <CloudtipsSDK/UIImage+ImageEffects.h>
