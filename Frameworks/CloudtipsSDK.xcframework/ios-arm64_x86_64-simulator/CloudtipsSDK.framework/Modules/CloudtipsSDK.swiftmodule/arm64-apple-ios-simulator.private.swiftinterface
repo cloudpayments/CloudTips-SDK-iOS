@@ -23,6 +23,7 @@ import Swift
 import UIKit.UIColor
 import UIKit.UIFont
 import UIKit.UIGestureRecognizerSubclass
+import UIKit.UIImage
 import UIKit
 import WebKit
 import YandexPaySDK
