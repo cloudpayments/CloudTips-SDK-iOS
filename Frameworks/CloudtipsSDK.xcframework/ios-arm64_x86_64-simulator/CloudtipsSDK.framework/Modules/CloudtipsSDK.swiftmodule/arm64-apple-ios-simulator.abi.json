@@ -318,6 +318,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit.UIImage",
+        "printedName": "UIKit.UIImage",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -459,6 +466,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CloudtipsSDK",
         "declAttributes": [
@@ -893,6 +910,13 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "CloudtipsSDK",
         "declAttributes": [
           "RawDocComment"
@@ -991,6 +1015,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
       },
       {
         "kind": "Import",
@@ -1058,6 +1089,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1065,6 +1103,20 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
       },
       {
         "kind": "Import",
@@ -2364,6 +2416,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
         "name": "QuartzCore.CoreAnimation",
         "printedName": "QuartzCore.CoreAnimation",
         "declKind": "Import",
@@ -2421,6 +2480,23 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "CloudtipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "CloudtipsSDK"
       },
       {
@@ -2501,6 +2577,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CloudtipsSDK"
       },
@@ -2537,6 +2620,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
       },
       {
         "kind": "Import",
@@ -2727,6 +2817,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2784,6 +2881,13 @@
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CloudtipsSDK"
       },
@@ -3137,6 +3241,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3205,8 +3316,29 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CloudtipsSDK"
       },
@@ -3293,10 +3425,24 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "CloudtipsSDK",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
       },
       {
         "kind": "Import",
@@ -3396,6 +3542,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
       },
       {
         "kind": "Import",
@@ -3551,6 +3704,13 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "CloudtipsSDK",
         "declAttributes": [
           "RawDocComment"
@@ -3589,6 +3749,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
       },
       {
         "kind": "Import",
@@ -3644,6 +3811,13 @@
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CloudtipsSDK"
       },
@@ -3758,6 +3932,13 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
       },
       {
         "kind": "Import",
@@ -4012,6 +4193,13 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "CloudtipsSDK",
         "declAttributes": [
           "RawDocComment"
@@ -4066,6 +4254,20 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "CloudtipsSDK",
         "declAttributes": [
           "RawDocComment"
@@ -4121,6 +4323,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudtipsSDK"
       },
       {
         "kind": "Import",
@@ -8203,90 +8412,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UIControl",
-        "printedName": "UIControl",
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIControl",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIControl",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UIImage",
         "printedName": "UIImage",
         "declKind": "Class",
@@ -8372,6 +8497,173 @@
             "printedName": "_ExpressibleByImageLiteral",
             "usr": "s:s26_ExpressibleByImageLiteralP",
             "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIControl",
+        "printedName": "UIControl",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIControl",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIControl",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplication",
+        "printedName": "UIApplication",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIApplication",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIApplication",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -9277,89 +9569,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIApplication",
-        "printedName": "UIApplication",
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIApplication",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIApplication",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIResponder",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -12391,6 +12600,146 @@
       "offset": 1993,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 935,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2980,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3716,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3864,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3988,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4217,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4884,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4912,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5809,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6156,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6577,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6730,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6783,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6857,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6888,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7001,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7006,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7075,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7133,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Presentation\/Implementation\/TCPlainNotificationViewPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7251,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/CardSaveViewController.swift",
@@ -17713,6 +18062,83 @@
       "value": "\"CloudTips\/SDK-IOS\""
     },
     {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "StringLiteral",
+      "offset": 656,
+      "length": 64,
+      "value": "\"Title length should not exceed \""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 10,
+      "value": "\" characters\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2203,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "StringLiteral",
+      "offset": 26,
+      "length": 19,
+      "value": "\"CloudtipsSDK.TCSNotificationView\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2446,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2489,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2541,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2588,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2638,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/TCSNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2710,
+      "length": 2,
+      "value": "32"
+    },
+    {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Cloudpayments\/CloudpaymentsRequest.swift",
       "kind": "Dictionary",
       "offset": 415,
@@ -18110,6 +18536,41 @@
       "offset": 2185,
       "length": 10,
       "value": "\"unionpay\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCPresentationQueueItemWeight.swift",
+      "kind": "IntegerLiteral",
+      "offset": 963,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCPresentationQueueItemWeight.swift",
+      "kind": "IntegerLiteral",
+      "offset": 990,
+      "length": 3,
+      "value": "750"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCPresentationQueueItemWeight.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1018,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCPresentationQueueItemWeight.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1043,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Implementation\/TCPresentationQueueController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 871,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Configuration\/Cloudtips.swift",
@@ -23154,483 +23615,490 @@
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 896,
+      "offset": 1131,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 896,
+      "offset": 1131,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 896,
+      "offset": 1131,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1379,
+      "offset": 1614,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1901,
+      "offset": 2136,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 2852,
+      "offset": 3087,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 3030,
+      "offset": 3265,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 4177,
+      "offset": 4412,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 4355,
+      "offset": 4590,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 4727,
+      "offset": 4962,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 4969,
+      "offset": 5204,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 5309,
+      "offset": 5544,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 5348,
+      "offset": 5583,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 5649,
+      "offset": 5884,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 5889,
+      "offset": 6124,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6227,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 6556,
+      "length": 131,
+      "value": "\"Не получилось оплатить. Попробуйте снова или оплатите другим способом\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 6727,
+      "length": 14,
+      "value": "\"cross-circle\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "Dictionary",
-      "offset": 6637,
+      "offset": 7148,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "Dictionary",
-      "offset": 7154,
+      "offset": 7665,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 7242,
+      "offset": 7753,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "Dictionary",
-      "offset": 7369,
+      "offset": 7880,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 7621,
+      "offset": 8132,
       "length": 102,
       "value": "\"Приложение банка не установлено, выберите другой банк.\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 8640,
+      "offset": 9151,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 8988,
+      "offset": 9499,
       "length": 4,
       "value": "2400"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9286,
+      "offset": 9797,
       "length": 39,
       "value": "\"cardSaveViewDidChangeHeight \""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9324,
+      "offset": 9835,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 10329,
+      "offset": 10840,
       "length": 4,
       "value": "2400"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 11431,
+      "offset": 11942,
       "length": 42,
       "value": "\"cardSaveViewHeight \""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 11472,
+      "offset": 11983,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 11588,
+      "offset": 12099,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 11678,
+      "offset": 12189,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 11825,
+      "offset": 12336,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 11845,
+      "offset": 12356,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 11933,
+      "offset": 12444,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "FloatLiteral",
-      "offset": 12907,
+      "offset": 13418,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "FloatLiteral",
-      "offset": 12946,
+      "offset": 13457,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14018,
+      "offset": 14529,
       "length": 27,
       "value": "\"payment_page_success_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14056,
+      "offset": 14567,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14066,
+      "offset": 14577,
       "length": 8,
       "value": "\"sbppay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14206,
+      "offset": 14717,
       "length": 25,
       "value": "\"payment_page_error_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14242,
+      "offset": 14753,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14252,
+      "offset": 14763,
       "length": 8,
       "value": "\"sbppay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14612,
+      "offset": 15123,
       "length": 27,
       "value": "\"payment_page_success_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14650,
+      "offset": 15161,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14660,
+      "offset": 15171,
       "length": 12,
       "value": "\"tinkoffpay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14808,
+      "offset": 15319,
       "length": 25,
       "value": "\"payment_page_error_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14844,
+      "offset": 15355,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 14854,
+      "offset": 15365,
       "length": 12,
       "value": "\"tinkoffpay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15237,
+      "offset": 15748,
       "length": 27,
       "value": "\"payment_page_success_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15275,
+      "offset": 15786,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15285,
+      "offset": 15796,
       "length": 11,
       "value": "\"yandexpay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15494,
+      "offset": 16005,
       "length": 25,
       "value": "\"payment_page_error_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15530,
+      "offset": 16041,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15540,
+      "offset": 16051,
       "length": 11,
       "value": "\"yandexpay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15687,
+      "offset": 16198,
       "length": 27,
       "value": "\"payment_page_success_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15725,
+      "offset": 16236,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15735,
+      "offset": 16246,
       "length": 10,
       "value": "\"applepay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15902,
+      "offset": 16413,
       "length": 25,
       "value": "\"payment_page_error_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15938,
+      "offset": 16449,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15948,
+      "offset": 16459,
       "length": 10,
       "value": "\"applepay\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 16592,
+      "offset": 17103,
       "length": 27,
       "value": "\"payment_page_success_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 16630,
+      "offset": 17141,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 16640,
+      "offset": 17151,
       "length": 6,
       "value": "\"card\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 16820,
+      "offset": 17331,
       "length": 25,
       "value": "\"payment_page_error_page\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 16856,
+      "offset": 17367,
       "length": 8,
       "value": "\"pay_by\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "StringLiteral",
-      "offset": 16866,
+      "offset": 17377,
       "length": 6,
       "value": "\"card\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 17118,
+      "offset": 17629,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 17262,
+      "offset": 17773,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 17541,
+      "offset": 18052,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Coordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 17685,
+      "offset": 18196,
       "length": 4,
       "value": "true"
     },
@@ -26911,6 +27379,132 @@
       "value": "\"paymentMethod\""
     },
     {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "Array",
+      "offset": 280,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 740,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 884,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1123,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1190,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1394,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1739,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1743,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1755,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1762,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1880,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1885,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1959,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1967,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2042,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2050,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/Presentation\/Model\/TCHeap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2270,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/BaseProtocols\/TCSHighlightable+Presets.swift",
       "kind": "FloatLiteral",
       "offset": 1212,
@@ -29058,6 +29652,41 @@
       "offset": 4121,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/Utils\/TinkoffNotificationKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1010,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/Utils\/TinkoffNotificationKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/Utils\/TinkoffNotificationKit.swift",
+      "kind": "Array",
+      "offset": 2496,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/Utils\/TinkoffNotificationKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2836,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSNotificationView\/Utils\/TinkoffNotificationKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1478,
+      "length": 22,
+      "value": "\"CloudtipsSDK.TinkoffNotificationKit\""
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Cloudpayments\/RSAUtils.swift",
@@ -34205,6 +34834,34 @@
       "value": "\"TDKXibs\""
     },
     {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/utils\/NotificationsPopupService.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 54,
+      "value": "\"[NotificationsPopupService] Create an instance first\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/utils\/NotificationsPopupService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1340,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/utils\/NotificationsPopupService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1602,
+      "length": 8,
+      "value": "0xFBE4E3"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/utils\/NotificationsPopupService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2191,
+      "length": 2,
+      "value": "10"
+    },
+    {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/Cloudpayments\/ThreeDs\/ThreeDsProcessor.swift",
       "kind": "StringLiteral",
       "offset": 500,
@@ -34686,6 +35343,41 @@
       "offset": 436,
       "length": 2,
       "value": "28"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/PopupNotification\/Implementation\/TCPopupNotificationQueueController.swift",
+      "kind": "Dictionary",
+      "offset": 579,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/PopupNotification\/Implementation\/TCPopupNotificationQueueController.swift",
+      "kind": "Dictionary",
+      "offset": 663,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/PopupNotification\/Implementation\/TCPopupNotificationQueueController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7561,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/PopupNotification\/Implementation\/TCPopupNotificationQueueController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7600,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/Notifications\/Controllers\/Queues\/PopupNotification\/Implementation\/TCPopupNotificationQueueController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7633,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/Kingfisher\/Sources\/Extensions\/ImageView+Kingfisher.swift",
@@ -35750,6 +36442,83 @@
       "offset": 5337,
       "length": 3,
       "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1834,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 1885,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2194,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2612,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3956,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4828,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4967,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5091,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5330,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6105,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Utils\/PopupNotificationKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6133,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/SnapKit\/Sources\/ConstraintAttributes.swift",
@@ -39630,6 +40399,97 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 828,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2284,
+      "length": 3,
+      "value": "999"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 24,
+      "value": "\"CloudtipsSDK.TCSPopupNotificationView\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5420,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5471,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5524,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5620,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5630,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5642,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5653,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5756,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/TCSPopupNotificationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5834,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/v2\/UI\/Card\/NewCardTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1121,
@@ -39866,6 +40726,41 @@
       "offset": 8808,
       "length": 9,
       "value": "\"http:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Style\/TCSPopupNotification+StyleExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1474,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Style\/TCSPopupNotification+StyleExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1520,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Style\/TCSPopupNotification+StyleExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1565,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Style\/TCSPopupNotification+StyleExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1804,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/TCSKit\/TinkoffDesignKit\/UiElements\/Views\/TCSPopupNotificationView\/Style\/TCSPopupNotification+StyleExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2002,
+      "length": 2,
+      "value": "15"
     },
     {
       "filePath": "\/Users\/rysev\/projects\/cloudp\/sdk-ios\/Sources\/SnapKit\/Sources\/ConstraintDSL.swift",
